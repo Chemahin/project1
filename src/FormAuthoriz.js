@@ -56,9 +56,9 @@ class FormAuthoriz extends Component {
     render () {
         return (
             
-            <form className="demoForm">
+            <form>
                 <h2>Sign up</h2>
-                <div className="panel panel-default">
+                <div className="panel panel-default ">
                     <FormErrors formErrors={this.state.formErrors} />
                 </div>
                 <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
